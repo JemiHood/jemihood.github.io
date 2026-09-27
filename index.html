@@ -52,7 +52,7 @@
   .btn-primary{background:var(--accent);color:#fff}
   .btn-ghost{border:1px solid var(--border);background:var(--card)}
   .avatar{width:100%;max-width:330px;aspect-ratio:1;margin-inline-start:auto;border-radius:32px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-size:6rem;font-weight:800;color:#fff;box-shadow:var(--shadow);overflow:hidden}
-  .avatar img{width:100%;height:100%;object-fit:cover}
+  .avatar img{width:100%;height:100%;object-fit:cover;font-size:1rem}
 
   /* Sections */
   section{padding:80px 0}
@@ -135,7 +135,7 @@
         <a href="#" id="behanceBtn" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta2"></a>
       </div>
     </div>
-    <div class="avatar"><img src="photo.jpg" alt="Mohamed Gamal"></div>
+    <div class="avatar"><img src="photo.jpg" alt="Mohamed Gamal" onerror="this.parentNode.textContent='MG'"></div>
   </div>
 </header>
 
